@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ForbesSpiderClone</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dfa5f58fdb.js" crossorigin="anonymous"></script>
+    <script src="./custom.js"></script>
+    <style>
+        .nav-item{
+            font-weight: bold;
+        }
+
+        .alpha-div{
+            width:100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .child-div{
+            color:black;
+            width:33%;
+            overflow: hidden;
+            padding: 1%;
+        }
+
+        .child-div img {
+            width: 100%;
+        }
+
+        .left{
+            color:black;
+        }
+
+        .bg-blue{
+            background-color: rgb(87, 87, 178);
+            color: white;
+            font-weight:500;
+            text-align: center;
+            font-size: 14px;
+            font-family:Verdana;
+        }
+
+        .column-text-span{
+            width:25%;
+            overflow: hidden;
+            float: left;
+
+        }
+
+        .large-bold-text{
+            overflow: hidden;
+            float: left;
+            width: 90%;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+
+        }
+
+        .normal-bold-text{
+            width: 80%;
+            overflow: hidden;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+        }
+
+        .take-one{
+            color: grey;
+            font-size: small;
+
+        }
+
+
+
+
+        .podcast-div{
+            float: left;
+            width: 100%;
+            background-color: rgb(241, 233, 233)
+        }
+
+        .podcast-child-div{
+            float: left;
+            width: 100%;
+            padding: 3%;
+        
+        }
+
+        .podcast-child-img{
+            float:left; width: 25%;
+            
+        }
+
+        .podcast-child-text{
+            float:left; width: 70%;
+        }
+
+        .buyDigital{
+            width: 65%;
+            padding: 10%;
+        
+        }
+
+        .buyIcon{
+            float: right;
+            width:20px;
+            
+        }
+
+        .buyBtnDiv{
+            width: 50%;
+float: right;
+margin-right: 5%
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#"><img src="https://www.forbesindia.com/forbes-rvp-files/images/forbes-logo.png" alt="" id="forbes"></a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">LEADERSHIP <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">INNOVATION</a>
+            </li>
+
+            <li class="nav-item active">
+                <a class="nav-link" href="#">BILLIONAIRE</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">LIST</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">PODCASTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">OTHERS</a>
+              </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+      <div class="alpha-div container my-4">
+
+            <div class="child-div left">
+                <span><img src="https://www.forbesindia.com/media/images/2022/Nov/img_198181_editnote.jpg" class="editor-note-img"></span>
+                <span class="column-text-span">
+                    <p class="bg-blue my-2">COLUMN</p>
+                </span>
+
+                <span class="large-bold-text">
+                    <p class="my-2">Busts will come and busts will go, but startups matter in a thriving economy</p>
+                </span>
+            </div>
+
+            <div class="child-div middle">
+                <div>
+                <span>
+                    <p class="take-one">TAKE ONE: BIG STORY OF THE DAY</p>
+                </span>
+                <span>
+                    <p class="normal-bold-text">Laws of the Jungle: For this VC firm, it's about growing slow, lying low and building to last</p>
+                </span>
+                <span>
+                    <p class="take-one">By <b style="color:black">Rajiv Singh</b> </p>
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <p class="take-one">TAKE ONE: BIG STORY OF THE DAY</p>
+                </span>
+                <span>
+                    <p class="normal-bold-text">Laws of the Jungle: For this VC firm, it's about growing slow, lying low and building to last</p>
+                </span>
+                <span>
+                    <p class="take-one">By <b style="color:black">Rajiv Singh</b> </p>
+                </span>
+            </div>
+
+            <div>
+                <span>
+                    <p class="take-one">TAKE ONE: BIG STORY OF THE DAY</p>
+                </span>
+                <span>
+                    <p class="normal-bold-text">Laws of the Jungle: For this VC firm, it's about growing slow, lying low and building to last</p>
+                </span>
+                <span>
+                    <p class="take-one">By <b style="color:black">Rajiv Singh</b> </p>
+                </span>
+            </div>
+
+            </div>
+
+            <div class="child-div right">
+                <div class="podcast-div">
+                    <p class="large-bold-text">Podcast</p>  
+                    
+                    <div class="podcast-child-div">
+                        <div class="podcast-child-img"><img src="https://www.forbesindia.com/media/audio/2022/Nov/sriramviswanathan(1)_sm_20221118024114_280x210.jpg" style="width: 70px;height: 65px"></div>
+                        <div class="podcast-child-text" ><p class="normal-bold-text">
+                            Startup Fridays S3 Ep11: 'Strategic investors can make or break a deep tech venture, choose wisely, time it right' — Sriram Viswanathan
+                        </p></div>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://www.forbesindia.com/media/issue/forbesindiacover_20221122102554_300x500.jpg" alt="" class="buyDigital"></div>
+                    <div id="buyDiv" class="buyBtnDiv">
+                    <button id="buy" class="btn btn-primary buyBtn">Buy a Digital Copy</button>
+                        
+                </div>
+                   
+            </div>
+
+      </div>
+
+      <div class="footer">This Web Page was made by Muhammad Nauman (SP20-BCS-073)</div>
+    
+</body>
+</html>
